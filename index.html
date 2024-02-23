@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Werde PMU Artist</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Crimson+Text&family=Poppins:wght@200;300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/css/styles.css" />
+  </head>
+  <body>
+    <div class="header-for-whom-background">
+      <header class="header">
+        <div class="container">
+          <h1 class="header-title">Werde PMU Artist</h1>
+          <p class="header-desc">
+            Werde ein erfolgreicher PMU Artist, verdiene +1000 EUR/ Tag und
+            führe ein selbstbestimmtes Leben
+          </p>
+          <div class="header-button-container">
+            <button class="header-button" type="button" data-modal-open-one>
+              Jetzt kaufen
+            </button>
+            <div class="header-sale-mark">
+              <picture
+                ><source
+                  srcset="
+                    ./src/images/header-mark-1x.png 1x,
+                    ./src/images/header-mark-2x.png 2x
+                  "
+                  media="(min-width: 320px)"
+                  width="70"
+                  height="70" />
+                <img
+                  class="sale-mark"
+                  src="./src/images/header-mark-1x.png"
+                  alt="sale"
+                  width="70"
+                  height="70"
+              /></picture>
+              <p class="sale-number">-80%</p>
+            </div>
+          </div>
+          <div>
+            <p class="timer-text">Der Rabatt ist nur noch heute gültig:</p>
+            <div id="countdown" class="countdown">
+              <div class="countdown-number">
+                <span class="hours countdown-time"></span>
+              </div>
+              <div><span class="countdown-doubledot"></span></div>
+              <div class="countdown-number">
+                <span class="minutes countdown-time"></span>
+              </div>
+              <div><span class="countdown-doubledot"></span></div>
+              <div class="countdown-number">
+                <span class="seconds countdown-time"></span>
+              </div>
+            </div>
+          </div>
+          <div class="bonus-wrapper">
+            <picture
+              ><source
+                srcset="
+                  ./src/images/bonus-gift-mobile-1x.png 1x,
+                  ./src/images/bonus-gift-mobile-2x.png 2x
+                "
+                media="(min-width: 320px)"
+                width="50"
+                height="50" />
+              <img
+                class="bonus-wrapper-gift"
+                src="./src/images/bonus-gift-mobile-1x.png"
+                alt="gift"
+                width="50"
+                height="50"
+            /></picture>
+            <p class="bonus-title">Bonusmaterial im Wert von 2.000 €,</p>
+            <p class="bonus-subtitle">
+              absolut gratis, wenn du jetzt bestellst:
+            </p>
+            <ul class="bonus-list list">
+              <li class="list-item">✅ Meine geheime PMU-Checkliste</li>
+              <li class="list-item">✅ Businessplan-Vorlage</li>
+              <li class="list-item">
+                ✅ Digitales XBeauty-Zertifikat "Visionär"
+              </li>
+              <li class="list-item">
+                ✅ Ticket für die größte <br />
+                deutschsprachige PMU-Community*
+              </li>
+              <li class="list-item">
+                ✅ Online 1:1 Expertengespräch mit dem XBeauty-Team
+              </li>
+              <li class="list-item">
+                ✅ Rechtliche Hindernisse im PMU-Bereich
+              </li>
+              <li class="list-item">
+                ✅ Social Media Paket für echte Follower
+              </li>
+              <li class="list-item">
+                ✅ 5 Life Hacks für die Foto- und Videobearbeitung
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <section class="for-whom">
+        <div class="container">
+          <h2 class="for-whom-title">
+            Für wen ist dieser Online-Kurs geeignet?
+          </h2>
+          <ul class="for-whom-list list">
+            <li class="list-item">
+              <div class="item-container">
+                <p class="item-title">Für jede Frau,</p>
+                <p class="item-text">
+                  die eine erfolgreiche Teilzeit- oder Vollzeit PMU Künstlerin
+                  werden möchte
+                </p>
+                <p class="item-nubmer">01</p>
+              </div>
+            </li>
+            <li class="list-item">
+              <div class="item-container">
+                <p class="item-title">Für bestehende PMU Artisten,</p>
+                <p class="item-text">
+                  die mit diesem Online-Kurs ihren Umsatz steigern möchten
+                </p>
+                <p class="item-nubmer">02</p>
+              </div>
+            </li>
+            <li class="list-item">
+              <div class="item-container">
+                <p class="item-title">
+                  Für selbstständige Beauty-Dienstleister
+                </p>
+                <p class="item-text">
+                  (Nageldesign, Kosmetikerinnen...), die über eine
+                  Neuorientierung nachdenken und in die PMU-Branche einsteigen
+                  möchten
+                </p>
+                <p class="item-nubmer">03</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <picture
+            ><source
+              srcset="
+                ./src/images/for-whom-photo-mobile-1x.jpg 1x,
+                ./src/images/for-whom-photo-mobile-2x.jpg 2x
+              "
+              media="(min-width: 320px)"
+              width="100%"
+              height="auto" />
+            <img
+              class="for-whom-photo"
+              src="./src/images/for-whom-photo-mobile-1x.jpg"
+              alt="author-photo"
+              width="100%"
+              height="auto"
+          /></picture>
+        </div>
+      </section>
+    </div>
+    <div class="about-author-background">
+      <section class="online-course">
+        <div class="container">
+          <div class="online-course-not">
+            <div class="not-title-container">
+              <img
+                class="title-mark"
+                src="./src/images/course-not-title-mark.svg"
+                alt=""
+              />
+              <h2 class="course-not-title">
+                &nbsp;&nbsp;&nbsp;&nbsp; Was ist dieser Online-Kurs nicht?
+              </h2>
+            </div>
+            <ul class="course-not-list list">
+              <li class="list-item">
+                Kein Leitfaden zum schnellen Reichwerden.
+              </li>
+              <li class="list-item">
+                Nicht die oberflächlichen Informationen, die man überall
+                bekommt.
+              </li>
+              <li class="list-item">
+                Kein theoretisches Coaching bla bla bla, sondern reale Fakten
+                aus der Praxis von Profis.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="about-author">
+        <div class="container">
+          <h2 class="about-author-title">
+            Über <br />
+            <span>Yuliia Kronberg</span>
+          </h2>
+          <picture
+            ><source
+              srcset="
+                ./src/images/author-image-mobile-1x.png 1x,
+                ./src/images/author-image-mobile-2x.png 2x
+              "
+              media="(min-width: 320px)"
+              width="320"
+              height="320" />
+            <img
+              class="for-whom-photo"
+              src="./src/images/author-image-mobile-1x.png"
+              alt="author"
+              width="320"
+              height="320"
+          /></picture>
+          <p class="about-author-text">
+            Gründerin von XBeauty Permanent Make-Up, einer der am schnellsten
+            wachsenden PMU Brands in Deutschland.
+          </p>
+          <div class="about-author-container">
+            <img
+              class="author-list-line"
+              src="./src/images/author-list-line.svg"
+              alt="line"
+            />
+            <ul class="about-author-list list">
+              <li class="list-item">
+                An ihrer PMU Academy in Berlin unterrichtet die ehemalige
+                Gymnasiallehrerin aufstrebende Permanent Make-up-Künstler und
+                zeigt, wie JEDER ein erfolgreicher Beauty-Unternehmer werden
+                kann.
+              </li>
+              <li class="list-item">
+                Als PMU-Expertin wird Yulia Kronberg regelmäßig zu Vorträgen auf
+                internationalen PMU-Kongressen eingeladen und gilt als absolute
+                Koryphäe auf dem Gebiet Lidstrich mit Schattierung.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="course-program-background">
+      <section class="course-program">
+        <div class="container">
+          <div class="course-program-block">
+            <h2 class="course-program-title">
+              Das beinhaltet der <span>Online-Kurs: </span>
+            </h2>
+            <ul class="course-program-list list">
+              <li class="list-item">
+                <p class="item-number">Modul 1</p>
+                <p class="item-text">
+                  <span>Warum Permanent</span> Make-Up Artist der beste Beruf
+                  ist
+                </p>
+              </li>
+              <li class="list-item">
+                <p class="item-number">Modul 2</p>
+                <p class="item-text">
+                  <span>Wie ich XBeauty</span> in wenigen Monaten von 0 auf
+                  5-stellige Monatsumsätze aufgebaut habe! Meine
+                  Schritt-für-Schritt Anleitung zum 1:1 nachmachen
+                </p>
+              </li>
+              <li class="list-item">
+                <p class="item-number">Modul 3</p>
+                <p class="item-text">
+                  <span>Ein Business Plan,</span> der seine Wirksamkeit
+                  einschließlich der Kostenkalkulation klar nachweist
+                </p>
+              </li>
+              <li class="list-item">
+                <p class="item-number">Modul 4</p>
+                <p class="item-text">
+                  <span>Meine Online-Marketing-Strategie</span> zur
+                  kontinuierlichen Gewinnung von 2–5 Neukunden pro Tag
+                </p>
+              </li>
+              <li class="list-item">
+                <p class="item-number">Modul 5</p>
+                <p class="item-text">
+                  <span>Meine Methode</span> wie ich Neukunden in treue
+                  Stammkunden umwandel
+                </p>
+              </li>
+              <li class="list-item">
+                <p class="item-number">Modul 6</p>
+                <p class="item-text">
+                  <span>10 existenzielle Fehler,</span> die du kennen musst,
+                  bevor du in die PMU Branche einsteigst
+                </p>
+              </li>
+              <li class="list-item">
+                <p class="item-number">Modul 7</p>
+                <p class="item-text">
+                  <span>Motivierende Begleitung</span> damit du garantiert deine
+                  Ziele erreichst
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div class="price-wrapper">
+            <p class="price-title">Jetzt Angebot <span>sichern</span></p>
+            <p class="price"><span>99€</span> &nbsp;19€</p>
+          </div>
+          <div class="header-button-container">
+            <button class="header-button" type="button" data-modal-open-one>
+              Bezahlen
+            </button>
+            <div class="header-sale-mark">
+              <picture
+                ><source
+                  srcset="
+                    ./src/images/header-mark-1x.png 1x,
+                    ./src/images/header-mark-2x.png 2x
+                  "
+                  media="(min-width: 320px)"
+                  width="70"
+                  height="70" />
+                <img
+                  class="sale-mark"
+                  src="./src/images/header-mark-1x.png"
+                  alt="sale"
+                  width="70"
+                  height="70"
+              /></picture>
+              <p class="sale-number">-80%</p>
+            </div>
+          </div>
+          <div>
+            <p class="timer-text">Der Rabatt ist nur noch heute gültig:</p>
+            <div id="countdown-two" class="countdown-two">
+              <div class="countdown-number-two">
+                <span class="hours-two countdown-time-two"></span>
+              </div>
+              <div><span class="countdown-doubledot"></span></div>
+              <div class="countdown-number-two">
+                <span class="minutes-two countdown-time-two"></span>
+              </div>
+              <div><span class="countdown-doubledot"></span></div>
+              <div class="countdown-number-two">
+                <span class="seconds-two countdown-time-two"></span>
+              </div>
+            </div>
+          </div>
+          <div class="bonus-wrapper marginbottom">
+            <picture
+              ><source
+                srcset="
+                  ./src/images/bonus-gift-mobile-1x.png 1x,
+                  ./src/images/bonus-gift-mobile-2x.png 2x
+                "
+                media="(min-width: 320px)"
+                width="50"
+                height="50" />
+              <img
+                class="bonus-wrapper-gift"
+                src="./src/images/bonus-gift-mobile-1x.png"
+                alt="gift"
+                width="50"
+                height="50"
+            /></picture>
+            <p class="bonus-title">Bonusmaterial im Wert von 2.000 €,</p>
+            <p class="bonus-subtitle">
+              absolut gratis, wenn du jetzt bestellst:
+            </p>
+            <ul class="bonus-list list">
+              <li class="list-item">✅ Meine geheime PMU-Checkliste</li>
+              <li class="list-item">✅ Businessplan-Vorlage</li>
+              <li class="list-item">
+                ✅ Digitales XBeauty-Zertifikat "Visionär"
+              </li>
+              <li class="list-item">
+                ✅ Ticket für die größte <br />
+                deutschsprachige PMU-Community*
+              </li>
+              <li class="list-item">
+                ✅ Online 1:1 Expertengespräch mit dem XBeauty-Team
+              </li>
+              <li class="list-item">
+                ✅ Rechtliche Hindernisse im PMU-Bereich
+              </li>
+              <li class="list-item">
+                ✅ Social Media Paket für echte Follower
+              </li>
+              <li class="list-item">
+                ✅ 5 Life Hacks für die Foto- und Videobearbeitung
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="what-you-get-background">
+      <section class="what-you-get">
+        <div class="container">
+          <div class="after-buy-container">
+            <h2 class="after-buy-title">
+              Was passiert nach <span>dem Kauf?</span>
+            </h2>
+            <div class="after-buy-inner">
+              <img
+                class="after-buy-line"
+                src="./src/images/after-buy-line.svg"
+                alt="line"
+              />
+              <p class="after-buy-text">
+                Nach erfolgreicher Zahlung erhältst du eine Bestellbestätigung
+                per E-Mail. In dieser E-Mail erhältst du deinen persönlichen
+                Zugang zum Online-Kurs und natürlich auch die begehrten
+                Bonusmaterialien. Logge dich ein und beginne sofort mit deiner
+                Transformation…
+              </p>
+            </div>
+          </div>
+          <div class="what-you-get-container">
+            <h2 class="wath-you-get-title">
+              Was du aus dem <span>Kurs mitnehmen wirst:</span>
+            </h2>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script type="module" src="./src/js/timer.js"></script>
+  </body>
+</html>
