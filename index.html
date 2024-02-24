@@ -15,6 +15,35 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./src/css/styles.css" />
+    <!-- Meta Pixel Code -->
+    <script>
+      !(function (f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function () {
+          n.callMethod
+            ? n.callMethod.apply(n, arguments)
+            : n.queue.push(arguments);
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = "2.0";
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s);
+      })(
+        window,
+        document,
+        "script",
+        "https://connect.facebook.net/en_US/fbevents.js"
+      );
+      fbq("init", "253359104400895");
+      fbq("track", "PageView");
+    </script>
+    <!-- End Meta Pixel Code -->
   </head>
   <body>
     <div class="header-for-whom-background">
@@ -429,10 +458,338 @@
             <h2 class="wath-you-get-title">
               Was du aus dem <span>Kurs mitnehmen wirst:</span>
             </h2>
+            <ul class="you-get-list list">
+              <li class="list-item">
+                <p class="item-number">1</p>
+                <p class="item-text">
+                  Wie du eine finanziell erfolgreiche Frau wirst und ein
+                  unabhängiges, wohlhabendes Leben führst!
+                </p>
+              </li>
+              <li class="list-item">
+                <p class="item-number">2</p>
+                <p class="item-text">
+                  Insider-Wissen über die PMU-Industrie, das dir niemand sonst
+                  verrät!
+                </p>
+              </li>
+              <li class="list-item">
+                <p class="item-number">3</p>
+                <p class="item-text">
+                  Genaue Anleitungen, wie du PMU-Künstler wirst, also einen
+                  Leitfaden den du 1:1 nachmachen kannst!
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div class="price-wrapper white">
+            <p class="price-title black">Jetzt Angebot <span>sichern</span></p>
+            <p class="price red"><span>99€</span> &nbsp;19€</p>
+          </div>
+          <div class="header-button-container">
+            <button class="header-button" type="button" data-modal-open-one>
+              Bezahlen
+            </button>
+            <div class="header-sale-mark">
+              <picture
+                ><source
+                  srcset="
+                    ./src/images/header-mark-1x.png 1x,
+                    ./src/images/header-mark-2x.png 2x
+                  "
+                  media="(min-width: 320px)"
+                  width="70"
+                  height="70" />
+                <img
+                  class="sale-mark"
+                  src="./src/images/header-mark-1x.png"
+                  alt="sale"
+                  width="70"
+                  height="70"
+              /></picture>
+              <p class="sale-number">-80%</p>
+            </div>
+          </div>
+          <div>
+            <p class="timer-text purple">
+              Der Rabatt ist nur noch heute gültig:
+            </p>
+            <div id="countdown-three" class="countdown-three">
+              <div class="countdown-number-three">
+                <span class="hours-three countdown-time-three"></span>
+              </div>
+              <div><span class="countdown-doubledot"></span></div>
+              <div class="countdown-number-three">
+                <span class="minutes-three countdown-time-three"></span>
+              </div>
+              <div><span class="countdown-doubledot"></span></div>
+              <div class="countdown-number-three">
+                <span class="seconds-three countdown-time-three"></span>
+              </div>
+            </div>
           </div>
         </div>
       </section>
     </div>
+    <div class="reviews-questions-background">
+      <section class="reviews">
+        <div class="container">
+          <h2 class="reviews-title">
+            Was andere über <span>diesen Kurs sagen:</span>
+          </h2>
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/images/reviews/reviews-one-mobile-1x.png 1x,
+                      ./src/images/reviews/reviews-one-mobile-2x.png 2x
+                    "
+                    media="(min-width: 320px)"
+                    width="300"
+                    height="273" />
+                  <img
+                    class="reviews-image"
+                    src="./src/images/reviews/reviews-one-mobile-1x.png"
+                    alt="review"
+                    width="300"
+                    height="273"
+                /></picture>
+              </div>
+              <div class="swiper-slide">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/images/reviews/reviews-two-mobile-1x.png 1x,
+                      ./src/images/reviews/reviews-two-mobile-2x.png 2x
+                    "
+                    media="(min-width: 320px)"
+                    width="300"
+                    height="273" />
+                  <img
+                    class="reviews-image"
+                    src="./src/images/reviews/reviews-two-mobile-1x.png"
+                    alt="review"
+                    width="300"
+                    height="273"
+                /></picture>
+              </div>
+              <div class="swiper-slide">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/images/reviews/reviews-three-mobile-1x.png 1x,
+                      ./src/images/reviews/reviews-three-mobile-2x.png 2x
+                    "
+                    media="(min-width: 320px)"
+                    width="300"
+                    height="273" />
+                  <img
+                    class="reviews-image"
+                    src="./src/images/reviews/reviews-three-mobile-1x.png"
+                    alt="review"
+                    width="300"
+                    height="273"
+                /></picture>
+              </div>
+              <div class="swiper-slide">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/images/reviews/reviews-four-mobile-1x.png 1x,
+                      ./src/images/reviews/reviews-four-mobile-2x.png 2x
+                    "
+                    media="(min-width: 320px)"
+                    width="300"
+                    height="273" />
+                  <img
+                    class="reviews-image"
+                    src="./src/images/reviews/reviews-four-mobile-1x.png"
+                    alt="review"
+                    width="300"
+                    height="273"
+                /></picture>
+              </div>
+            </div>
+            <div class="reviews-button-container">
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
+          </div>
+          <div class="faq-container">
+            <h2 class="faq-title">Häufig gestellte <span>Fragen:</span></h2>
+            <div class="faq-two">
+              <div class="question-two open isOpen">
+                <div class="question-two-name">
+                  <p>Wie kann ich bezahlen?</p>
+                  <img
+                    class="question-plus"
+                    src="./src/images/questions-plus-white.svg"
+                    alt="+"
+                    width="18"
+                    height="18"
+                  />
+                </div>
+                <div class="content-two">
+                  <p>
+                    Du kannst bequem und sicher per Paypal oder Kreditkarte
+                    bezahlen
+                  </p>
+                </div>
+              </div>
+              <div class="question-two">
+                <div class="question-two-name">
+                  <p>Gibt es ein Rückgaberecht?</p>
+                  <img
+                    class="question-plus"
+                    src="./src/images/questions-plus-white.svg"
+                    alt="+"
+                    width="18"
+                    height="18"
+                  />
+                </div>
+                <div class="content-two">
+                  <p>Aufgrund des Angebots entfällt das Rückgaberecht.</p>
+                </div>
+              </div>
+              <div class="question-two">
+                <div class="question-two-name">
+                  <p>Wie lange habe ich Zugriff?</p>
+                  <img
+                    class="question-plus"
+                    src="./src/images/questions-plus-white.svg"
+                    alt="+"
+                    width="18"
+                    height="18"
+                  />
+                </div>
+                <div class="content-two">
+                  <p>Lebenslang bzw. solange der Kurs online ist.</p>
+                </div>
+              </div>
+              <div class="question-two">
+                <div class="question-two-name">
+                  <p>Wird das Zertifikat „Visionär“ anerkannt?</p>
+                  <img
+                    class="question-plus"
+                    src="./src/images/questions-plus-white.svg"
+                    alt="+"
+                    width="18"
+                    height="18"
+                  />
+                </div>
+                <div class="content-two">
+                  <p>Ja das Zertifikat wird in der PMU Szene anerkannt.</p>
+                </div>
+              </div>
+              <div class="question-two">
+                <div class="question-two-name">
+                  <p>Wird es in Zukunft weitere Kosten geben?</p>
+                  <img
+                    class="question-plus"
+                    src="./src/images/questions-plus-white.svg"
+                    alt="+"
+                    width="18"
+                    height="18"
+                  />
+                </div>
+                <div class="content-two">
+                  <p>Nein es entstehen zukünftig keine weiteren Kosten.</p>
+                </div>
+              </div>
+              <div class="question-two">
+                <div class="question-two-name">
+                  <p>
+                    Ich habe keinen Laptop. Funktioniert der Kurs auf meinem
+                    Mobiltelefon?
+                  </p>
+                  <img
+                    class="question-plus"
+                    src="./src/images/questions-plus-white.svg"
+                    alt="+"
+                    width="18"
+                    height="18"
+                  />
+                </div>
+                <div class="content-two">
+                  <p>Ja funktioniert auch auf deinem Smartphone</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="container">
+          <div class="deals-container">
+            <ul class="deals-list list">
+              <li class="list-item">
+                <a class="link" href="" target="_blank" rel="nofollow"
+                  >Impressum</a
+                >
+              </li>
+              <li class="list-item">
+                <a class="link" href="" target="_blank" rel="nofollow"
+                  >Datenschutzrichtlinie</a
+                >
+              </li>
+              <li class="list-item">
+                <a class="link" href="" target="_blank" rel="nofollow"
+                  >Widerrufsbelehrung</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="contact-container">
+            <ul class="contacts-list list">
+              <li class="list-item">
+                <a href="mailto:Info@xbeauty-pmu.com">Info@xbeauty-pmu.com</a>
+              </li>
+              <li>
+                <a
+                  class="footer-insta"
+                  href="https://www.instagram.com/xbeauty_by_yuliia_kronberg"
+                  target="_blank"
+                  rel="nofollow"
+                  ><div class="footer-insta-container">
+                    <img
+                      src="./src/images/insta-icon.svg"
+                      alt="insta"
+                      width="24"
+                      height="24"
+                    />
+                    <p class="footer-insta-nickname">
+                      @xbeauty_by_yuliia_kronberg
+                    </p>
+                  </div></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <div class="backdrop is-hidden" data-modal1>
+      <div class="modal">
+        <button type="button" class="close-button" data-modal-close1>
+          <img
+            src="./src/images/close-modal-icon.svg"
+            width="30"
+            height="30"
+            alt="close"
+          />
+        </button>
+        <div id="kwiga-widget-1707917685"></div>
+      </div>
+    </div>
     <script type="module" src="./src/js/timer.js"></script>
+    <script type="module" src="./src/js/swiper.js"></script>
+    <script type="module" src="./src/js/faq.js"></script>
+    <script type="module" src="./src/js/js-modal.js"></script>
+    <script
+      type="module"
+      src="https://kwiga.com/build/js/kwiga-widget.js?t=1707917685&uuid=67aff671-90f0-4455-b676-cf0dd87a2b8d&producer=https://kwiga.com/"
+    ></script>
   </body>
 </html>
