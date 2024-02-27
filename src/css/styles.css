@@ -91,6 +91,8 @@ p {
 }
 
 .header-button {
+  display: block;
+
   padding: 13px;
   border-radius: 60px;
   background: linear-gradient(90deg, #7c0e3d 0%, #c70e5c 50%, #7c0e3d 100%);
@@ -1330,4 +1332,22 @@ p {
   100% {
     scale: 1;
   }
+}
+
+/* form text */
+
+.form-text-subtitle {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 120%; /* 16.8px */
+
+  max-width: 260px;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-bottom: 30px;
 }
