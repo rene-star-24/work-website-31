@@ -1317,7 +1317,7 @@ p {
   align-items: center;
 
   background-color: inherit;
-  border: none;
+  border: none; 
 
   cursor: pointer;
 }
