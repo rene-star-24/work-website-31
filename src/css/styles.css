@@ -1317,7 +1317,7 @@ p {
   align-items: center;
 
   background-color: inherit;
-  border: none; 
+  border: none;
 
   cursor: pointer;
 }
@@ -1350,4 +1350,24 @@ p {
   margin-right: auto;
 
   margin-bottom: 30px;
+}
+
+.contact-container {
+  margin-bottom: 30px;
+}
+
+.footer-description-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-description-list .list-item {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 120%; /* 16.8px */
 }
