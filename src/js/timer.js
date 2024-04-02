@@ -24,10 +24,14 @@ function initializeClock(id, endtime) {
 
   function updateClock() {
     var t = getTimeRemaining(endtime);
-    daysSpan.innerHTML = ("0" + t.days).slice(-2);
-    hoursSpan.innerHTML = ("0" + t.hours).slice(-2);
-    minutesSpan.innerHTML = ("0" + t.minutes).slice(-2);
-    secondsSpan.innerHTML = ("0" + t.seconds).slice(-2);
+    // daysSpan.innerHTML = ("0" + t.days).slice(-2);
+    // hoursSpan.innerHTML = ("0" + t.hours).slice(-2);
+    // minutesSpan.innerHTML = ("0" + t.minutes).slice(-2);
+    // secondsSpan.innerHTML = ("0" + t.seconds).slice(-2);
+    daysSpan.innerHTML = "00";
+    hoursSpan.innerHTML = "00";
+    minutesSpan.innerHTML = "00";
+    secondsSpan.innerHTML = "00";
 
     if (t.total <= 0) {
       clearInterval(timeinterval);
@@ -49,10 +53,14 @@ function initializeClockTwo(id, endtime) {
 
   function updateClock() {
     var t = getTimeRemaining(endtime);
-    daysSpan.innerHTML = ("0" + t.days).slice(-2);
-    hoursSpan.innerHTML = ("0" + t.hours).slice(-2);
-    minutesSpan.innerHTML = ("0" + t.minutes).slice(-2);
-    secondsSpan.innerHTML = ("0" + t.seconds).slice(-2);
+    // daysSpan.innerHTML = ("0" + t.days).slice(-2);
+    // hoursSpan.innerHTML = ("0" + t.hours).slice(-2);
+    // minutesSpan.innerHTML = ("0" + t.minutes).slice(-2);
+    // secondsSpan.innerHTML = ("0" + t.seconds).slice(-2);
+    daysSpan.innerHTML = "00";
+    hoursSpan.innerHTML = "00";
+    minutesSpan.innerHTML = "00";
+    secondsSpan.innerHTML = "00";
 
     if (t.total <= 0) {
       clearInterval(timeinterval);
@@ -74,10 +82,14 @@ function initializeClockThree(id, endtime) {
 
   function updateClock() {
     var t = getTimeRemaining(endtime);
-    daysSpan.innerHTML = ("0" + t.days).slice(-2);
-    hoursSpan.innerHTML = ("0" + t.hours).slice(-2);
-    minutesSpan.innerHTML = ("0" + t.minutes).slice(-2);
-    secondsSpan.innerHTML = ("0" + t.seconds).slice(-2);
+    // daysSpan.innerHTML = ("0" + t.days).slice(-2);
+    // hoursSpan.innerHTML = ("0" + t.hours).slice(-2);
+    // minutesSpan.innerHTML = ("0" + t.minutes).slice(-2);
+    // secondsSpan.innerHTML = ("0" + t.seconds).slice(-2);
+    daysSpan.innerHTML = "00";
+    hoursSpan.innerHTML = "00";
+    minutesSpan.innerHTML = "00";
+    secondsSpan.innerHTML = "00";
 
     if (t.total <= 0) {
       clearInterval(timeinterval);
