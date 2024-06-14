@@ -69,14 +69,17 @@
             führe ein selbstbestimmtes Leben
           </p>
           <div class="header-button-container">
-            <a
+            <button type="button" class="header-button" data-modal-open>
+              Jetzt kaufen
+            </button>
+            <!-- <a
               class="header-button link"
               href="https://copecart.com/products/cea6a03b/checkout"
               target="_blank"
               rel="nofollow"
             >
               Jetzt kaufen
-            </a>
+            </a> -->
             <div class="header-sale-mark">
               <picture
                 ><source
@@ -366,13 +369,9 @@
             <p class="price"><span>99€</span> &nbsp;9€</p>
           </div>
           <div class="header-button-container">
-            <a
-              class="header-button link"
-              href="https://copecart.com/products/cea6a03b/checkout"
-              target="_blank"
-              rel="nofollow"
-              >Bezahlen</a
-            >
+            <button type="button" class="header-button" data-modal-open>
+              Bezahlen
+            </button>
             <div class="header-sale-mark">
               <picture
                 ><source
@@ -517,13 +516,9 @@
           </div>
 
           <div class="header-button-container">
-            <a
-              class="header-button link"
-              href="https://copecart.com/products/cea6a03b/checkout"
-              target="_blank"
-              rel="nofollow"
-              >Bezahlen</a
-            >
+            <button type="button" class="header-button" data-modal-open>
+              Bezahlen
+            </button>
             <div class="header-sale-mark">
               <picture
                 ><source
@@ -862,6 +857,27 @@
         </div>
       </footer>
     </div>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="close-button" data-modal-close>
+          <img
+            src="./src/images/close-modal-icon.svg"
+            width="40"
+            height="40"
+            alt="close"
+          />
+        </button>
+        <script src="https://www.paypal.com/sdk/js?client-id=BAAi-y61f0mZwcrJj3htAh3EGuDCy5ClCFTQhwAKnUeAIsBuWzqe5Q6PWsf5CKQ4bEjJp3FlFFZ7p4SJ58&components=hosted-buttons&disable-funding=venmo&currency=EUR"></script>
+        <div id="paypal-container-XN95SUSDRMR64"></div>
+        <script>
+          paypal
+            .HostedButtons({
+              hostedButtonId: "XN95SUSDRMR64",
+            })
+            .render("#paypal-container-XN95SUSDRMR64");
+        </script>
+      </div>
+    </div>
     <!-- <div class="backdrop is-hidden" data-modal1>
       <div class="modal">
         <button type="button" class="close-button" data-modal-close1>
@@ -875,6 +891,7 @@
         <div id="kwiga-widget-1707917685"></div>
       </div>
     </div> -->
+    <script type="module" src="./src/js/js-modal.js"></script>
     <script type="module" src="./src/js/timer.js"></script>
     <script type="module" src="./src/js/swiper.js"></script>
     <script type="module" src="./src/js/faq.js"></script>
