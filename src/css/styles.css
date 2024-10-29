@@ -37,11 +37,12 @@ p {
 /* header */
 
 .header-for-whom-background {
-  padding-top: 341px;
+  padding-top: 400px;
 
   background-image: url(../images/header-for-whom-background-mobile-1x.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 
   max-width: 428px;
   margin-left: auto;
@@ -57,12 +58,12 @@ p {
 }
 
 .header-title {
-  color: #f8d15e;
-  font-family: "Crimson Text";
+  color: #a890ff;
+  font-family: Philosopher;
   font-size: 56px;
   font-style: normal;
   font-weight: 400;
-  line-height: 100%; /* 39.2px */
+  line-height: 90%; /* 39.2px */
   letter-spacing: -1.12px;
   text-transform: uppercase;
 
@@ -95,7 +96,7 @@ p {
 
   padding: 13px;
   border-radius: 60px;
-  background: linear-gradient(90deg, #7c0e3d 0%, #c70e5c 50%, #7c0e3d 100%);
+  background: linear-gradient(90deg, #52008f 0%, #8d35fb 50%, #52008f 100%);
 
   color: #fff;
   text-align: center;
@@ -120,8 +121,8 @@ p {
 
 .header-sale-mark {
   position: absolute;
-  top: -43px;
-  right: -10px;
+  top: -30px;
+  right: -20px;
 }
 
 .sale-mark {
@@ -207,7 +208,7 @@ p {
 }
 
 .timer-text {
-  color: #f8d15e;
+  color: #8d35fb;
   text-align: center;
   font-family: Poppins;
   font-size: 14px;
@@ -216,7 +217,7 @@ p {
   line-height: 120%; /* 16.8px */
   text-transform: uppercase;
 
-  max-width: 171px;
+  max-width: 201px;
   margin-left: auto;
   margin-right: auto;
 
@@ -259,14 +260,14 @@ p {
   bottom: 0;
   border-radius: 20px;
   border: 1px solid transparent;
-  background: linear-gradient(180deg, #f8d15e, #d72b75) border-box;
+  background: linear-gradient(180deg, #8d35fb, #a890ff) border-box;
   mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: destination-out;
   mask-composite: exclude;
 }
 
 .bonus-wrapper .bonus-title {
-  color: #d72b75;
+  color: #a890ff;
   text-align: center;
   font-family: Poppins;
   font-size: 20px;
@@ -281,7 +282,7 @@ p {
 }
 
 .bonus-wrapper .bonus-subtitle {
-  color: #f8d15e;
+  color: #8d35fb;
   text-align: center;
   font-family: Poppins;
   font-size: 12px;
@@ -325,8 +326,8 @@ p {
 }
 
 .for-whom-title {
-  color: #d72b75;
-  font-family: "Crimson Text";
+  color: #a890ff;
+  font-family: Philosopher;
   font-size: 40px;
   font-style: normal;
   font-weight: 400;
@@ -372,7 +373,7 @@ p {
 
 .for-whom-list .item-title {
   color: #fff;
-  font-family: "Crimson Pro";
+  font-family: "Philosopher";
   font-size: 32px;
   font-style: normal;
   font-weight: 500;
@@ -397,9 +398,9 @@ p {
 }
 
 .for-whom-list .item-nubmer {
-  color: #d72b75;
+  color: #a890ff;
   text-align: right;
-  font-family: "Crimson Text";
+  font-family: "Philosopher";
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -450,7 +451,7 @@ p {
 
 .course-not-title {
   color: #fff;
-  font-family: "Crimson Text";
+  font-family: "Philosopher";
   font-size: 32px;
   font-style: normal;
   font-weight: 400;
@@ -482,7 +483,7 @@ p {
 
 .about-author-title {
   color: #fff;
-  font-family: "Crimson Text";
+  font-family: "Philosopher";
   font-size: 64px;
   font-style: normal;
   font-weight: 400;
@@ -494,8 +495,8 @@ p {
 }
 
 .about-author-title span {
-  color: #d72b75;
-  font-family: "Crimson Text";
+  color: #a890ff;
+  font-family: "Philosopher";
   font-size: 38px;
   font-style: normal;
   font-weight: 400;
@@ -513,7 +514,7 @@ p {
 }
 
 .about-author-text {
-  color: #f8d15e;
+  color: #a890ff;
   font-family: Poppins;
   font-size: 16px;
   font-style: normal;
@@ -578,12 +579,12 @@ p {
 }
 
 .course-program-title {
-  color: #d72b75;
-  font-family: "Crimson Text";
+  color: #a890ff;
+  font-family: "Philosopher";
   font-size: 32px;
   font-style: normal;
   font-weight: 400;
-  line-height: 90%; /* 22.4px */
+  line-height: 100%; /* 22.4px */
   letter-spacing: -0.64px;
   text-transform: uppercase;
 
@@ -593,6 +594,7 @@ p {
 .course-program-title span {
   color: #fff;
   font-size: 42px;
+  letter-spacing: -0.84px;
 }
 
 .course-program-list {
@@ -610,9 +612,9 @@ p {
 .course-program-list .item-number {
   padding: 6px;
 
-  color: #d72b75;
+  color: #a890ff;
   text-align: center;
-  font-family: "Crimson Text";
+  font-family: "Philosopher";
   font-size: 12px;
   font-style: normal;
   font-weight: 600;
@@ -620,7 +622,7 @@ p {
   text-transform: uppercase;
 
   border-radius: 80px;
-  border: 0.5px solid #d72b75;
+  border: 0.5px solid #a890ff;
 
   width: 80px;
   height: 24px;
@@ -652,9 +654,9 @@ p {
 }
 
 .price-title {
-  color: #f8d15e;
+  color: #8d35fb;
   text-align: center;
-  font-family: "Crimson Text";
+  font-family: "Philosopher";
   font-size: 32px;
   font-style: normal;
   font-weight: 400;
@@ -681,9 +683,9 @@ p {
 }
 
 .price {
-  color: #f8d15e;
+  color: #a890ff;
   text-align: center;
-  font-family: "Crimson Text";
+  font-family: "Philosopher";
   font-size: 48px;
   font-style: normal;
   font-weight: 600;
@@ -694,7 +696,7 @@ p {
 
 .price span {
   color: rgba(255, 255, 255, 0.5);
-  font-family: "Crimson Text";
+  font-family: "Philosopher";
   font-size: 48px;
   font-style: normal;
   font-weight: 400;
@@ -794,8 +796,8 @@ p {
 }
 
 .after-buy-title {
-  color: #d72b75;
-  font-family: "Crimson Text";
+  color: #a890ff;
+  font-family: "Philosopher";
   font-size: 32px;
   font-style: normal;
   font-weight: 400;
@@ -837,9 +839,9 @@ p {
 /* what-you-get-container */
 
 .wath-you-get-title {
-  color: #ff8228;
+  color: #8d35fb;
   text-align: center;
-  font-family: "Crimson Text";
+  font-family: "Philosopher";
   font-size: 36px;
   font-style: normal;
   font-weight: 400;
@@ -870,7 +872,7 @@ p {
   width: 100%;
   height: 1px;
 
-  background-color: #ffca62;
+  background-color: #a890ff;
 
   margin-bottom: 40px;
 }
@@ -888,7 +890,7 @@ p {
   padding: 11px 15px;
 
   color: #fff;
-  font-family: "Crimson Text";
+  font-family: "Philosopher";
   font-size: 26px;
   font-style: normal;
   font-weight: 400;
@@ -896,7 +898,7 @@ p {
   letter-spacing: -0.52px;
   text-transform: uppercase;
 
-  background-color: #ffca62;
+  background-color: #a890ff;
   border-radius: 50%;
 
   width: 40px;
@@ -932,7 +934,7 @@ p {
 }
 
 .price-title.black span {
-  color: #d72b75;
+  color: #a890ff;
 }
 
 .price-title.black::after {
@@ -942,7 +944,7 @@ p {
 }
 
 .price.red {
-  color: #d72b75;
+  color: #a890ff;
 }
 
 .price.red span {
@@ -997,7 +999,7 @@ p {
 }
 
 .timer-text.purple {
-  color: #d72b75;
+  color: #a890ff;
 }
 
 /* reviews */
@@ -1024,9 +1026,9 @@ p {
 }
 
 .reviews-title {
-  color: #d72b75;
+  color: #a890ff;
   text-align: center;
-  font-family: "Crimson Text";
+  font-family: "Philosopher";
   font-size: 36px;
   font-style: normal;
   font-weight: 400;
@@ -1070,8 +1072,8 @@ p {
 /* faq-container */
 
 .faq-title {
-  color: #ff8228;
-  font-family: "Crimson Text";
+  color: #a890ff;
+  font-family: "Philosopher";
   font-size: 32px;
   font-style: normal;
   font-weight: 400;
@@ -1128,7 +1130,7 @@ p {
   bottom: 0;
   border-radius: 10px;
   border: 1px solid transparent;
-  background: linear-gradient(180deg, #d72b75, rgba(0, 0, 0, 0.1)) border-box;
+  background: linear-gradient(180deg, #8d35fb, rgba(0, 0, 0, 0.1)) border-box;
   -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: destination-out;
   mask-composite: exclude;
@@ -1248,7 +1250,7 @@ p {
   gap: 5px;
 }
 
-/* modal */
+/* modal
 
 .backdrop {
   position: fixed;
@@ -1288,9 +1290,8 @@ p {
   padding-bottom: 24px;
   padding-left: 24px;
 
-  width: calc(100% - 28 px);
-
-  width: 90%;
+  width: 100%;
+  max-width: 360px;
 
   background: #ffffff;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
@@ -1300,12 +1301,6 @@ p {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   overflow-y: scroll;
-}
-
-@media screen and (min-width: 768px) {
-  .modal {
-    width: 500px;
-  }
 }
 
 .close-button {
@@ -1321,7 +1316,7 @@ p {
   border: none;
 
   cursor: pointer;
-}
+} */
 
 @keyframes pulseScale {
   0% {
@@ -1373,8 +1368,6 @@ p {
   line-height: 120%; /* 16.8px */
 }
 
-@use "../utils/mixins" as mx;
-
 /* modal */
 
 body.modal-open {
@@ -1414,8 +1407,8 @@ body.modal-open {
   padding-bottom: 24px;
   padding-left: 24px;
 
-  max-width: 345px;
-  min-height: auto !important;
+  width: 100%;
+  max-width: 360px;
 
   border-radius: 20px;
   background: #ffffff;
@@ -1424,17 +1417,22 @@ body.modal-open {
   transform: translate(-50%, -50%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  overflow-y: auto !important;
+  overflow-y: auto;
 }
 
 .close-button {
   position: absolute;
   top: 20px;
-  right: 20px;
+  right: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: inherit;
   border: none;
   cursor: pointer;
+}
+
+#paypal-form-fields-container-XN95SUSDRMR64 {
+  max-width: 220px;
+  margin: 0 auto;
 }
